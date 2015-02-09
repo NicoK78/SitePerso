@@ -116,6 +116,5 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   sqlite3
-  libsqlite3-dev
   turbolinks
   uglifier (>= 1.3.0)
