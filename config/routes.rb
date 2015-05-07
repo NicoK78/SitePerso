@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root :to => 'pages#accueil'
   get 'accueil', :to => 'pages#accueil'
   get 'test', :to => 'pages#test'
+  get 'concoursObjCo', :to => 'pages#concoursObjCo'
+  get 'lpdw', :to => 'pages#lpdw'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
